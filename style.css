@@ -57,7 +57,7 @@ nav {
   display: flex;
   justify-content: center;
 }
-.right > img {
+.right > abbr {
   width: 2.5vmax;
   margin: 1vmax;
   cursor: pointer;
@@ -67,6 +67,7 @@ nav {
   display: flex;
   height: 90vh;
   background-image: radial-gradient(rgb(230, 221, 255), rgb(184, 184, 223));
+  background: white;
 }
 
 .container {
@@ -221,6 +222,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  cursor: pointer;
+  font-size: 20px;
 }
 .rightFooter > h4 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -233,4 +236,9 @@ footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   margin: 0.5vmax;
+}
+
+#explore {
+    text-decoration: none;
+    color: white;
 }
